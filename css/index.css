@@ -1,0 +1,335 @@
+/*--- Avanquest WebEasy Page Style ---*/
+
+
+.cc01               { /* Common */
+	font            : 10pt 'Cambria';
+	color           : #808080;
+}
+span#e31            { /* images/tip_july_10th_emi... */
+	border          :   0.00pt none #ffffff;
+	background      : transparent url(images/tip_july_10th_emilie_wide001011.jpg) no-repeat top left;
+	position        : absolute;
+	left            :  96.00pt;
+	top             :   0.00pt;
+	width           : 624.00pt;
+	height          : 900.00pt;
+}
+div#e30             {
+	font            : 10pt 'Times New Roman', Book, Georgia, serif;
+	color           : #e4d486;
+	text-align      : left;
+	background-color: #cbb255;
+	position        : absolute;
+	left            :   0.00pt;
+	top             :  70.50pt;
+	width           : 109.50pt;
+	height          : 828.75pt;
+}
+a#a30               {
+	font            : 10pt 'Times New Roman', Book, Georgia, serif;
+	color           : #e4d486;
+}
+div#e29             {
+	font            : 10pt 'System', monospace;
+	color           : #000000;
+	text-align      : left;
+	background-color: #000099;
+	position        : absolute;
+	left            :   0.00pt;
+	top             :   0.00pt;
+	width           : 720.00pt;
+	height          : 105.00pt;
+}
+h4#e28              { /* ...a step by step proces... */
+	font            : bold 16pt 'Cambria';
+	color           : #000099;
+	text-align      : center;
+	position        : absolute;
+	left            : 119.25pt;
+	top             : 123.00pt;
+	width           : 432.75pt;
+	height          :  69.75pt;
+}
+h5#e27              { /* DID YOU KNOW? */
+	font            : bold 10pt 'Cambria';
+	color           : #000099;
+	text-align      : center;
+	position        : absolute;
+	left            : 579.75pt;
+	top             : 121.50pt;
+	width           : 124.50pt;
+	height          :  15.75pt;
+}
+span#e26            { /* images/tip_july_10th_emi... */
+	border          :   0.00pt none #808080;
+	clip            : rect(0.00pt,90.00pt,0.75pt,0.00pt);
+	background      : transparent url(images/tip_july_10th_emilie_wide001010.jpg) no-repeat top left;
+	position        : absolute;
+	left            : 600.75pt;
+	top             : 142.50pt;
+	width           :  90.00pt;
+	height          :   0.75pt;
+}
+h6#e25              { /* <DIV><FONT color="#00000... */
+font            : 10pt 'Cambria';
+color           : #0000ff;
+text-align      : center;
+border          :   0.00pt none #00ff33;
+position        : absolute;
+left            : 597.75pt;
+top             : 312.75pt;
+width           : 108.75pt;
+height          : 155.25pt;
+}
+h6#e24              { /* <DIV><FONT color="#00000... */
+font            : 10pt 'Cambria';
+color           : #0000ff;
+text-align      : center;
+border          :   0.00pt none #ececec;
+position        : absolute;
+left            : 592.50pt;
+top             : 150.75pt;
+width           : 109.50pt;
+height          : 142.50pt;
+}
+h4#e23              { /* From our CORE ELEMENTS D... */
+	font            : bold 10pt 'Cambria';
+	color           : #5348f5;
+	text-align      : left;
+	position        : absolute;
+	left            : 137.25pt;
+	top             : 512.25pt;
+	width           : 204.75pt;
+	height          :  17.25pt;
+}
+span#e22            { /* images/tip_july_10th_emi... */
+	border          :   0.00pt none #808080;
+	clip            : rect(0.00pt,90.00pt,0.75pt,0.00pt);
+	background      : transparent url(images/tip_july_10th_emilie_wide001009.jpg) no-repeat top left;
+	position        : absolute;
+	left            : 603.75pt;
+	top             : 300.00pt;
+	width           :  90.00pt;
+	height          :   0.75pt;
+}
+div#e21             { /* Alternative\ \Sentencing */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+	position        : absolute;
+	left            :   3.00pt;
+	top             : 442.50pt;
+	width           :  99.75pt;
+	height          :  38.25pt;
+}
+a#a21               { /* Alternative\ \Sentencing */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+}
+h6#e20              { /* <FONT color="#000000">NE... */
+font            : 10pt 'Cambria';
+color           : #0000ff;
+text-align      : center;
+border          :   0.00pt none #ece9d8;
+position        : absolute;
+left            : 599.25pt;
+top             : 483.00pt;
+width           : 108.75pt;
+height          : 110.25pt;
+}
+span#e19            { /* images/tip_july_10th_emi... */
+	border          :   0.00pt none #808080;
+	clip            : rect(0.00pt,90.00pt,0.75pt,0.00pt);
+	background      : transparent url(images/tip_july_10th_emilie_wide001008.jpg) no-repeat top left;
+	position        : absolute;
+	left            : 606.00pt;
+	top             : 468.00pt;
+	width           :  90.00pt;
+	height          :   0.75pt;
+}
+div#e18             { /* Registration */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+	position        : absolute;
+	left            :   1.50pt;
+	top             : 246.75pt;
+	width           : 102.75pt;
+	height          :  20.25pt;
+}
+a#a18               { /* Registration */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+}
+span#e17            { /* images/tip_july_10th_emi... */
+	background      : transparent url(images/tip_july_10th_emilie_wide001007.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   0.75pt;
+	top             : 105.00pt;
+	width           : 108.00pt;
+	height          : 100.50pt;
+}
+div#e16             { /* Calendar */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+	position        : absolute;
+	left            :   0.75pt;
+	top             : 353.25pt;
+	width           : 102.75pt;
+	height          :  18.75pt;
+}
+a#a16               { /* Calendar */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+}
+div#e15             { /* Course Info */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+	position        : absolute;
+	left            :   1.50pt;
+	top             : 322.50pt;
+	width           : 102.75pt;
+	height          :  20.25pt;
+}
+a#a15               { /* Course Info */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+}
+div#e14             { /* Home */
+	font            : italic bold 14pt 'Cambria';
+	color           : #0000c9;
+	position        : absolute;
+	left            :   0.00pt;
+	top             : 219.75pt;
+	width           : 102.75pt;
+	height          :  21.75pt;
+}
+div#e13             { /* Franchising\ \Informatio... */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+	position        : absolute;
+	left            :   0.00pt;
+	top             : 390.75pt;
+	width           : 104.25pt;
+	height          :  38.25pt;
+}
+a#a13               { /* Franchising\ \Informatio... */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+}
+div#e12             { /* Center\ \Locations */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+	position        : absolute;
+	left            :   1.50pt;
+	top             : 273.00pt;
+	width           : 101.25pt;
+	height          :  38.25pt;
+}
+a#a12               { /* Center\ \Locations */
+	font            : bold 14pt 'Cambria';
+	color           : #0000c9;
+}
+div#e11             {
+	position        : absolute;
+	left            : 136.50pt;
+	top             : 357.75pt;
+	width           : 187.50pt;
+	height          : 120.00pt;
+}
+span#e10            { /* images/tip_july_10th_emi... */
+	background      : transparent url(images/tip_july_10th_emilie_wide001006.jpg) no-repeat top left;
+	position        : absolute;
+	left            :  69.75pt;
+	top             :  35.25pt;
+	width           :  93.75pt;
+	height          :  66.75pt;
+}
+h1#e9               { /* THE INTEGRITY PROJECT\ */
+	background      : transparent url(images/tip_july_10th_emilie_wide001005.jpg) no-repeat top left;
+	position        : absolute;
+	left            :   0.00pt;
+	top             :   0.75pt;
+	width           : 720.00pt;
+	height          :  33.75pt;
+}
+span#e8             { /* images/tip_july_10th_emi... */
+	background      : transparent url(images/tip_july_10th_emilie_wide001004.jpg) no-repeat top left;
+	position        : absolute;
+	left            : 191.25pt;
+	top             :  38.25pt;
+	width           :  99.75pt;
+	height          :  63.75pt;
+}
+span#e7             { /* images/tip_july_10th_emi... */
+	background      : transparent url(images/tip_july_10th_emilie_wide001003.jpg) no-repeat top left;
+	position        : absolute;
+	left            : 314.25pt;
+	top             :  39.75pt;
+	width           : 110.25pt;
+	height          :  63.00pt;
+}
+span#e6             { /* images/tip_july_10th_emi... */
+	background      : transparent url(images/tip_july_10th_emilie_wide001002.jpg) no-repeat top left;
+	position        : absolute;
+	left            : 440.25pt;
+	top             :  37.50pt;
+	width           :  92.25pt;
+	height          :  65.25pt;
+}
+span#e5             { /* images/tip_july_10th_emi... */
+	background      : transparent url(images/tip_july_10th_emilie_wide001001.jpg) no-repeat top left;
+	position        : absolute;
+	left            : 552.75pt;
+	top             :  39.75pt;
+	width           :  93.75pt;
+	height          :  62.25pt;
+}
+div#e4              { /* &nbsp;&nbsp;&nbsp;&nbsp;... */
+	font            : 12pt 'Cambria';
+	text-align      : left;
+	position        : absolute;
+	left            : 137.25pt;
+	top             : 189.75pt;
+	width           : 435.75pt;
+	height          : 188.25pt;
+}
+div#e3              { /* &nbsp;&nbsp;&nbsp;&nbsp;... */
+	font            : 12pt 'Cambria';
+	text-align      : left;
+	position        : absolute;
+	left            : 138.75pt;
+	top             : 540.00pt;
+	width           : 434.25pt;
+	height          : 240.75pt;
+}
+h6#e2               { /* {Copyright © 2014 THE IN... */
+	text-align      : left;
+	position        : absolute;
+	left            : 138.75pt;
+	top             : 866.25pt;
+	width           : 354.00pt;
+	height          :  29.25pt;
+}
+div#e1              { /* This introduction to our... */
+	position        : absolute;
+	left            : 334.50pt;
+	top             : 360.00pt;
+	width           : 228.00pt;
+	height          : 127.50pt;
+}
+div#page            { /* Page Holder */
+	position        : relative;
+	width           : 720.00pt;
+	height          : 900.00pt;
+	text-align      : left;
+	margin-left     : auto;
+	margin-right    : auto;
+}
+body                { /* Page Body */
+	background-color: #ffffff;
+	text-align      : center;
+	overflow        : auto;
+}
+
+
+
+/*--- EndOfFile ---*/
