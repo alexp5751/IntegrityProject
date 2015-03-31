@@ -15,6 +15,8 @@
   "license": "ISC",
   "dependencies": {
       "connect": "latest",
-      "serve-static": "latest"
+      "serve-static": "latest",
+      "angular": "latest",
+      "angular-route": "latest"
   }
 }

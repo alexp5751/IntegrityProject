@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html ng-app="integrityProjectApp" lang="en">
+<head>
+	<title> The Integrity Project </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Content-Style-Type" content="text/css;">
+	<meta name="Author" content="The Integrity Project ">
+	<meta name="Keywords" content="Franchise, business, opportunity, alternative sentencing, Milledgeville, personal Integrity, sentencing options, alternative sentencing,">
+	<meta name="Description" content="A professional development course focusing on personal integrity. This course has been used as a sentencing option for some misdemeanor offences, and has helped many students get jobs or promotions. ">
+	<link rel="shortcut icon" href="linked/tip_favicon.ico">
+	<!--// Document Script //-->
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<script src="node_modules/angular/angular.min.js"></script>
+
+	<script src="node_modules/angular-route/angular-route.min.js"></script>
+
+	<script src="controllers/app.js"></script>
+
+	<script src="controllers/controllers.js"></script>
+</head>
+
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a class='home' href="#/home">Home</a>
+                </li>
+                <li>
+                    <a class='registration' href="#/registration">Registration</a>
+                </li>
+                <li>
+                    <a class='center-locations' href="#/center_locations">Center Locations</a>
+                </li>
+                <li>
+                    <a class='course-info' href="#/course_info">Course Info</a>
+                </li>
+                <li>
+                    <a class='calendar' href="#/calendar">Calendar</a>
+                </li>
+                <li>
+                    <a class='franchising-information' href="#/franchising_information">Franchising Information</a>
+                </li>
+                <li>
+                    <a class='alternative-sentencing' href="#/alternative_sentencing">Alternative Sentencing</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div ng-view class="view-frame"></div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body></html>
