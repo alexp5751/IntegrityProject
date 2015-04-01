@@ -1,4 +1,5 @@
 #wrapper {
+    margin-top: 150px;
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -123,10 +124,10 @@
 
     #page-content-wrapper {
         padding: 20px;
-        position: relative;
+        position: absolute;
     }
 
     #wrapper.toggled #page-content-wrapper {
-        position: relative;
+        position: absolute;
         margin-right: 0;
     }

@@ -1,88 +1,76 @@
 <!DOCTYPE html>
 
 <html ng-app="integrityProjectApp" lang="en">
-<head>
-	<title> The Integrity Project </title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<meta http-equiv="Content-Style-Type" content="text/css;">
-	<meta name="Author" content="The Integrity Project ">
-	<meta name="Keywords" content="Franchise, business, opportunity, alternative sentencing, Milledgeville, personal Integrity, sentencing options, alternative sentencing,">
-	<meta name="Description" content="A professional development course focusing on personal integrity. This course has been used as a sentencing option for some misdemeanor offences, and has helped many students get jobs or promotions. ">
-	<link rel="shortcut icon" href="linked/tip_favicon.ico">
-	<!--// Document Script //-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title> The Integrity Project </title>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Style-Type" content="text/css;">
+    <meta name="Author" content="The Integrity Project ">
+    <meta name="Keywords" content="Franchise, business, opportunity, alternative sentencing, Milledgeville, personal Integrity, sentencing options, alternative sentencing,">
+    <meta name="Description" content="A professional development course focusing on personal integrity. This course has been used as a sentencing option for some misdemeanor offences, and has helped many students get jobs or promotions. ">
+    <link rel="shortcut icon" href="linked/tip_favicon.ico">
+    <!--// Document Script //-->
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
 
-	<script src="node_modules/angular/angular.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-	<script src="node_modules/angular-route/angular-route.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-	<script src="controllers/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 
-	<script src="controllers/controllers.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+
+    <script src="controllers/app.js"></script>
+
+    <script src="controllers/controllers.js"></script>
+    <script src="controllers/modernizr.custom.js"></script>
 </head>
 
 
 <body>
-
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li>
-                    <a class='home' href="#/home">Home</a>
-                </li>
-                <li>
-                    <a class='registration' href="#/registration">Registration</a>
-                </li>
-                <li>
-                    <a class='center-locations' href="#/center_locations">Center Locations</a>
-                </li>
-                <li>
-                    <a class='course-info' href="#/course_info">Course Info</a>
-                </li>
-                <li>
-                    <a class='calendar' href="#/calendar">Calendar</a>
-                </li>
-                <li>
-                    <a class='franchising-information' href="#/franchising_information">Franchising Information</a>
-                </li>
-                <li>
-                    <a class='alternative-sentencing' href="#/alternative_sentencing">Alternative Sentencing</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
+    <div class="container">
+        <ul id="gn-menu" class="gn-menu-main">
+            <li class="gn-trigger">
+                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                <nav class="gn-menu-wrapper">
+                    <div class="gn-scroller">
+                        <ul class="gn-menu">
+                            <li><a href="#/home" class="gn-icon gn-icon-download">Home</a></li>
+                            <li><a href="#/registration" class="gn-icon gn-icon-download">Registration</a></li>
+                            <li><a href="#/center_locations" class="gn-icon gn-icon-download">Center Locations</a></li>
+                            <li><a href="#/course_info" class="gn-icon gn-icon-download">Course Info</a></li>
+                            <li><a href="#/calendar" class="gn-icon gn-icon-download">Calendar</a></li>
+                            <li><a href="#/franchising_information" class="gn-icon gn-icon-download">Franchising Information</a></li>
+                            <li><a href="#/alternative_sentencing" class="gn-icon gn-icon-download">Alternative Sentencing</a></li>
+                        </ul>
+                    </div><!-- /gn-scroller -->
+                </nav>
+            </li>
+            <li><a class="integrity-project-logo" href="#/home"></a></li>
+            <li><a href="#/home">The Integrity Project</a></li>
+        </ul>
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div ng-view class="view-frame"></div>
             </div>
         </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-
-    <!-- Menu Toggle Script -->
+    <script src="controllers/classie.js"></script>
+    <script src="controllers/gnmenu.js"></script>
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+        new gnMenu( document.getElementById( 'gn-menu' ) );
     </script>
-
-</body></html>
+</body>
+</html>

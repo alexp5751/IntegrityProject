@@ -1,0 +1,10 @@
+#home-container {
+	color: #34495E;
+}
+
+#home-title-text {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	font-style: italic;
+}
