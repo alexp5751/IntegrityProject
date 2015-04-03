@@ -119,6 +119,7 @@
 		overflow-y: scroll;
 		width: 370px;
 		height: 100%;
+		z-index: 1000;
 		background-color: #cbb255;
 }
 
@@ -336,7 +337,7 @@ input.gn-search:focus {
 }
 
 .integrity-project-logo {
-	width: 100px;
+	width: 70px;
 	background: url("/images/integrity_project_logo.jpg") no-repeat center center;
 	background-size: contain;
 }
